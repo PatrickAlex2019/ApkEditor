@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="lightblue">#ff5997c4</color>
+    <color name="black">#ff303030</color>
+    <color name="deepblack">#ff000000</color>
+    <color name="darkblue">#ff1122cc</color>
+    <color name="littleblue">#ffe9f2fc</color>
+    
+    <string name="app_name">Translate Plugin</string>
+    
+    <string name="auto_translation">Auto Translation</string>
+    <string name="select_target_lang">"Select a language to translate to"</string>
+    <string name="stop">Stop</string>
+    <string name="save">Save</string>
+    <string name="close">Close</string>
+    <string name="save_and_close">Save &amp; Close</string>
+    <string name="translating">Translating &#8230;</string>
+    <string name="translated">Translated</string>
+    <string name="translated_format">%d strings translated</string>
+    <string name="failed_format">%d strings failed</string>
+    <string name="untranslated_format">%d strings untranslated</string>
+    <string name="error_no_string_totranslate">No string needs to be translated.</string>
+    <string name="error_no_string_tosave">No translated string to save.</string>
+    <string name="general_error">Error: %s</string>
+    <string name="save_succeed_tip">%d strings saved.</string>
+    <string name="save_translation_title">Save the translation?</string>
+    <string name="save_translation_msg">The translation is not saved yet. Save it before further operation?</string>
+    <string name="string_notsaved_msg">%d strings are discarded.</string>
+
+    <string name="apk_editor">APK Editor</string>
+    <string name="apk_editor_pro">APK Editor Pro</string>
+</resources>

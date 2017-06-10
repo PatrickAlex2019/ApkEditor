@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <style name="button" parent="@android:style/Widget.Button">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/lightblue</item>
+        <item name="android:gravity">center</item>
+        <!-- Change background 
+        <item name="android:background">@drawable/applistutil_btn_custom</item>
+        -->
+        <item name="android:background">@drawable/bg_button_style</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowRadius">0.2</item>
+    </style>
+    
+    <style name="dark_button" parent="@android:style/Widget.Button">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/lightblue</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/applistutil_btn_custom</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowRadius">0.2</item>
+    </style>
+</resources>
