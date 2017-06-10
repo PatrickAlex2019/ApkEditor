@@ -8,8 +8,10 @@ APK Editor: https://play.google.com/store/apps/details?id=com.gmail.heagoo.apked
 APK Editor Pro: https://play.google.com/store/apps/details?id=com.gmail.heagoo.apkeditor.pro
 
 Please uncomment following lines in AndroidManifest.xml if built for free version:
-  <intent-filter>
-    <action android:name="android.intent.action.VIEW" />
-    <category android:name="android.intent.category.DEFAULT" />
-    <data android:mimeType="application/com.gmail.heagoo.apkeditor-translate" />
-  </intent-filter>
+```
+    <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <data android:mimeType="application/com.gmail.heagoo.apkeditor-translate" />
+    </intent-filter>
+```
