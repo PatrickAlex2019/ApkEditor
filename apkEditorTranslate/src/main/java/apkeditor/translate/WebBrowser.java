@@ -18,7 +18,6 @@ import android.util.Log;
 
 public class WebBrowser {
 	private MyCookieStore cookieStore = new MyCookieStore();
-	// HttpHost proxy = new HttpHost("proxy-shz.intel.com", 911, "http");
 	HttpHost proxy = new HttpHost("xxx", 911, "http");
 	private boolean useProxy = false;
 	private boolean useSSL = false;
