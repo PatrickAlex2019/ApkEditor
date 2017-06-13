@@ -16,12 +16,12 @@ Please uncomment following lines in AndroidManifest.xml if built for free versio
     </intent-filter>
 ```
 To develop a translation plugin, you should create your own activity, which can get translation request and return the translation result. The translation request is sent in terms of TranslateItem which is defined as:
-``` 
+
+```
 package com.gmail.heagoo.apkeditor.translate;
  
 import java.io.Serializable;
- 
-// MUST be defined as this, cannot be proguarded
+
 public class TranslateItem implements Serializable {
  
     private static final long serialVersionUID = -3101805950698159689L;
@@ -40,9 +40,10 @@ public class TranslateItem implements Serializable {
        this.translatedValue = _t;
     }
 }
-``` 
+```
 
 And, please refer to following code to get all the passed parameters:
+
 ```
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -80,6 +81,7 @@ And, please refer to following code to get all the passed parameters:
 ```
 
 After the translation, we should return back the result using following code:
+
 ```
     private void setResult(List<TranslateItem> stringValues) {
        Intent intent = new Intent();
