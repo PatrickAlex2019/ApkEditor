@@ -52,15 +52,15 @@ And, please refer to following code to get all the passed parameters:
        Intent intent = getIntent();
        Bundle bundle = intent.getExtras();
        // Target language code like "-de"
-           this.targetLanguageCode = bundle.getString("targetLanguageCode");
+       this.targetLanguageCode = bundle.getString("targetLanguageCode");
        // Translated items are also passed, so that we can revise it
-           this.translatedFilePath = bundle.getString("translatedList_file");
-           this.translatedList = (List<TranslateItem>) readObjectFromFile(translatedFilePath);
+       this.translatedFilePath = bundle.getString("translatedList_file");
+       this.translatedList = (List<TranslateItem>) readObjectFromFile(translatedFilePath);
        // Untranslated items, which are to be translated
-           String path =bundle.getString("untranslatedList_file");
-           this.untranslatedList = (List<TranslateItem>) readObjectFromFile(path);
+       String path =bundle.getString("untranslatedList_file");
+       this.untranslatedList = (List<TranslateItem>) readObjectFromFile(path);
        // ...
-       }
+    }
  
     public static Object readObjectFromFile(String filePath) {
        Object result = null;
@@ -106,3 +106,5 @@ After the translation, we should return back the result using following code:
        }
     }
 ```
+
+As there may be thousands of TranslateItem, thus it is passed by file, not by itself.
