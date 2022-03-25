@@ -1,6 +1,6 @@
 **Release** 
 
-[![Android](https://img.shields.io/badge/Platform-Android-green.svg?style=flat-square)](https://www.android.com) [![API](https://img.shields.io/badge/API-21%2B-orange.svg?logo=android&style=flat-square)](https://developer.android.com/studio/releases/platforms) [![Release](https://img.shields.io/github/v/release/PatrickAlex2019/ModGallery2-Release?style=flat-square)](https://github.com/PatrickAlex2019/ApkEditor/releases)
+[![Android](https://img.shields.io/badge/Platform-Android-green.svg?style=flat-square)](https://www.android.com) [![API](https://img.shields.io/badge/API-21%2B-orange.svg?logo=android&style=flat-square)](https://developer.android.com/studio/releases/platforms) [![Release](https://img.shields.io/github/v/release/PatrickAlex2019/ApkEditor?style=flat-square)](https://github.com/PatrickAlex2019/ApkEditor/releases)
 
 **Go to** 
 
