@@ -23,11 +23,11 @@
 
 • Patrick Alex(Signature) 
 
-• MonetCarlos(Translate&Repair)
+• MonetCarlos(Translate & Repair)
 
-• ガルシア(Add Monet Style)
+• ガルシア(Add monet style)
 
-• Zeratul(Original creator for APK Editor)
+• Zeratul(Original creator)
 
 • Aidos Zhaqyp
 
