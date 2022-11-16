@@ -4,7 +4,7 @@
 
 **Preview**
 
-![alt text](https://raw.githubusercontent.com/PatrickAlex2019/ApkEditor/master/APKEditor_Preview.PNG)
+![alt text](https://raw.githubusercontent.com/PatrickAlex2019/ApkEditor/master/APKEditor_Preview1.PNG)
 
 
 **Download** 
