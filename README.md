@@ -16,3 +16,14 @@
 **Attention**
 
 - It is only for learning and communication, and is not allowed to be used for business
+
+**Thanks**
+• Candyman(Compile)
+• Patrick Alex(Signature) 
+• MonetCarlos(Translate&Repair)
+• ガルシア(Add Monet Style)
+• Zeratul(Original creator for APK Editor)
+• Aidos Zhaqyp
+• Mr Ikso
+• keks40
+• Bin(APK alignment optimization) 
