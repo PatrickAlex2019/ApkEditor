@@ -36,3 +36,7 @@
 • keks40
 
 • Bin(APK alignment optimization) 
+
+**Disclaimer**
+
+The software does not contain any virus and has not been verified for modification. Anyone can use jadx or mt manager to make secondary modifications. This project will be discontinued in 2022 and there is no plan to update it for the time being. If you want to maintain or update it on this basis, you can.
