@@ -1,0 +1,83 @@
+# Required minimal engine version
+[MIN_ENGINE_VER]
+1
+
+# The author of this patch
+[AUTHOR]
+apkeditor
+
+# For which package name
+[PACKAGE]
+*
+
+# Add files to target path
+# Be careful, as overwritten may happen if same file already exists
+[ADD_FILES]
+SOURCE:
+    layout.zip
+TARGET:
+    res/layout
+EXTRACT:
+    true
+[/ADD_FILES]
+
+[REMOVE_FILES]
+TARGET:
+    res/values-xx
+[/REMOVE_FILES]
+
+# Replace matched content inside target file, be careful when REGEX=true
+# All matched occurrences will be replaced
+# If REGEX=true, MATCH content must be in one line
+# Following example will delete internet permission
+[MATCH_REPLACE]
+TARGET:
+    AndroidManifest.xml
+MATCH:
+    <uses-permission android:name="android.permission.INTERNET" />
+REGEX:
+    false
+REPLACE:
+[/MATCH_REPLACE]
+
+
+[MATCH_REPLACE]
+TARGET:
+    smali/com/fingersoft/billing/util/IabHelper.smali
+MATCH:
+    const/x v3
+REGEX:
+    false
+REPLACE:
+    const/x v3
+    xxxx
+[/MATCH_REPLACE]
+
+# Replace target function inside smali file
+# Use it ONLY for smali files
+[FUNCTION_REPLACE]
+TARGET:
+    smali/com/fingersoft/billing/util/IabHelper.smali
+FUNCTION:
+    fd
+REPLACE:
+    fd
+[/FUNCTION_REPLACE]
+
+# Merge resources and smali files inside extra.zip
+# res/values/public.xml must be provided inside extra.zip
+# The patch engine will try to refactor all the added IDs
+[MERGE]
+SOURCE:
+    extra.zip
+[/MERGE]
+
+'{
+   "orderId":"GPA.1234-5678-9012-34567",
+   "packageName":"com.example.app",
+   "productId":"exampleSku",
+   "purchaseTime":1345678900000,
+   "purchaseState":0,
+   "developerPayload":"bGoa+V7g/yqDXvKRqq+JTFn4uQZbPiQJo4pf9RzJ",
+   "purchaseToken":"opaque-token-up-to-1000-characters"
+ }'
